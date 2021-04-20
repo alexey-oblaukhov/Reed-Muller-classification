@@ -193,7 +193,7 @@ def decompose_into_3_3flats(A):
                 
     return decompositions
 
-#Function which counts the decompositions of the form 2 of the given codeword 
+#Function which counts the decompositions of the form 2 of the given codeword.
 #It does so by checking sizes of pairwise intersections between A1, A2 and A3.
 #Representations of the form 2 have 2 intersections of size 2 and 1 of size 0.
 def count_representations_of_type_2(decompositions): 
@@ -212,7 +212,6 @@ def count_representations_of_type_2(decompositions):
 ####### MAIN BODY #######
 #########################
  
-
 #Many obtained equivalence classes have the same A1 and A2 3-flats,
 #So we put their symmetric difference into A12 
 A1 = flat(0,e(1),e(2),e(3))
